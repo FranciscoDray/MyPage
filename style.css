@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+	font-family: Open Sans;
+	background-image: url(Images/forest.jpg);
+	background-size: cover;
+	color: white;
+}
+
+
+h1 {
+	font-size: 60px;
+	padding-top: 150px; 
+	text-shadow: 0.5px 0.5px 0.5px gray; 
+	margin-bottom: 10px; 
+}
+
+p {
+	padding-left: 300px;
+	padding-right: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bottom {
+	text-decoration: none;
+	background-color: #bdbdbd;
+	color: black;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+}
+
+.bottom:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 250px;
+}
+
+.list li{
+	display: inline;
+}
+
+.list a{
+	color: white;
+	font-size: 45px;
+}
